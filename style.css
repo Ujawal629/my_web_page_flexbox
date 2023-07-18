@@ -1,0 +1,236 @@
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./Image/asian-conical-hat-wallpaper-preview.jpg);
+}
+
+.container1> h1 {
+    width: 80%;
+    margin-top: 440px;
+}
+
+
+.htwo {
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    font-size: 12rem;
+    margin: 85px;
+}
+
+.span1 {
+    font-family: 'Monoton', cursive;
+    font-size: 9rem; 
+    font-weight: lighter;
+}
+
+.container2 {
+    height: 500px;
+    background-color: rgb(246, 30, 66);
+    display: flex;
+    flex-direction: column;  
+}
+
+.two {
+    height: 260px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+
+.three {
+    width: 50%;   
+}
+
+.four {
+    width: 30%;
+    margin-top: 50px;
+
+}
+
+.p1 {
+    font-size: larger;
+    color: white;
+    margin-left: 90px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 {
+    height: 800px;
+    background-image: url(./Image/Universe-Desktop-Wallpapers.jpg);
+    background-size: cover;
+}
+
+.child3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.onethree {
+    height: 500px;
+    width: 40%;
+    align-self: center;
+    margin-left: 80px;
+}
+
+.img1 {
+    height: 500px;
+    border-radius: 50%;
+}
+
+.para3 {
+    display: flex;
+    justify-content: right;
+}
+
+.para3> div {
+    width: 50%;
+}
+
+.para3> div> p {
+    font-size: larger;
+    color: white;
+    text-align: end;
+    margin-right: 60px;
+}
+
+.container4 {
+    height: 550px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.img2 {
+    height: 540px;
+    margin-top: 5px;
+}
+
+.hart {
+    height: 300px;
+    width: 40%;
+    align-self: center;
+}
+
+.art {
+    font-size: 12rem;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    color: white;
+}
+
+.arts {
+    font-family: 'Monoton', cursive;
+    font-size: 9rem; 
+    font-weight: lighter;
+}
+
+@media (min-width:390px) and (max-width:819px)
+{
+   
+    .container1 {
+        width: 1190px;
+    }
+
+    .container2 {
+        width: 1190px;
+        display: inline-block;
+    }
+
+    .two {
+        height: 100px;
+    }
+
+    .three {
+        margin-bottom: 10px;
+    }
+     
+    .container3 {
+        height: 650px;
+        width: 1190px;
+    }
+
+    .img1 {
+        height: 400px;
+        width: 400px;
+        margin: 50px;
+     }
+
+    .container4 {
+        width: 1190px;
+        height: 500px;
+    }
+
+    .art {
+        font-size: 7rem;
+    }
+
+    .arts {
+        font-size: 5rem;
+    }
+
+    .hart {
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    .img2 {
+        width: 700px;
+        height: 490px;
+    }
+
+    .htwo {
+        font-size: 7rem;
+    }
+
+    .span1 {
+        font-size: 5rem;
+    }
+
+    .align {
+        flex-direction: row;
+        gap: 180px;
+    }
+
+}
+
+@media (min-width:820px)
+{
+    body {
+        height: 100vh;
+    }
+
+    .container1 {
+        width: 1565px;
+    }
+
+    .container2 {
+        width: 1565px;
+    }
+
+    .container3 {
+        width: 1565px;
+    }
+
+    .container4 {
+        width: 1565px;
+    }
+}
